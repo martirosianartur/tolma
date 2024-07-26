@@ -1,10 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:tolma/models/meal.dart';
+import 'package:tolma/screens/meal_details.dart';
 import 'package:tolma/widgets/meal_item.dart';
 
 class MealsScreen extends StatelessWidget {
   final String title;
   final List<Meal> meals;
+  void selectMeal(BuildContext context, Meal meal) {
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (ctx) => MealDetailsScreen(
+          meal: meal,
+        ),
+      ),
+    );
+  }
 
   const MealsScreen({
     super.key,
@@ -40,7 +50,12 @@ class MealsScreen extends StatelessWidget {
     if (meals.isNotEmpty) {
       content = ListView.builder(
         itemCount: meals.length,
-        itemBuilder: (ctx, index) => MealItem(meal: meals[index]),
+        itemBuilder: (ctx, index) => MealItem(
+          meal: meals[index],
+          onSelectMeal: (meal) {
+            selectMeal(context, meal);
+          },
+        ),
       );
     }
     return Scaffold(

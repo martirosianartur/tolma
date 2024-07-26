@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tolma/models/meal.dart';
+import 'package:tolma/widgets/meal_item.dart';
 
 class MealsScreen extends StatelessWidget {
   final String title;
@@ -39,9 +40,7 @@ class MealsScreen extends StatelessWidget {
     if (meals.isNotEmpty) {
       content = ListView.builder(
         itemCount: meals.length,
-        itemBuilder: (ctx, index) => Text(
-          meals[index].title,
-        ),
+        itemBuilder: (ctx, index) => MealItem(meal: meals[index]),
       );
     }
     return Scaffold(

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tolma/models/meal.dart';
 import 'package:tolma/screens/categories.dart';
+import 'package:tolma/screens/filters.dart';
 import 'package:tolma/screens/meals.dart';
 import 'package:tolma/widgets/main_drawer.dart';
 
@@ -47,9 +48,13 @@ class _TabsScreenState extends State<TabsScreen> {
   }
 
   void _setScreen(String identifier) {
+    Navigator.of(context).pop();
     if (identifier == 'filters') {
-    } else {
-      Navigator.of(context).pop();
+      Navigator.of(context).push(
+        MaterialPageRoute(
+          builder: (ctx) => const FiltersScreen(),
+        ),
+      );
     }
   }
 

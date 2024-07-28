@@ -444,7 +444,7 @@ const dummyMeals = [
     affordability: Affordability.affordable,
     complexity: Complexity.challenging,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2017/01/20/15/06/grape-leaves-1999481_1280.jpg',
+        'https://cdn.pixabay.com/photo/2016/04/25/07/32/filled-wine-leaves-1351333_1280.jpg',
     duration: 90,
     ingredients: [
       '500g Grape Leaves',
@@ -480,7 +480,7 @@ const dummyMeals = [
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2017/05/05/17/42/soup-2284561_1280.jpg',
+        'https://cdn.pixabay.com/photo/2022/07/15/18/41/ukrainian-food-7323773_1280.jpg',
     duration: 120,
     ingredients: [
       '500g Beets',
@@ -517,7 +517,7 @@ const dummyMeals = [
     affordability: Affordability.pricey,
     complexity: Complexity.challenging,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2019/05/24/08/11/bread-4229176_1280.jpg',
+        'https://sladkiy-dvor.ru/wp-content/uploads/2020/11/khachapuri-po-adzharski-recepti-gruzinskiye-nastoyaschiye-poshagovo-s-foto-1.jpeg',
     duration: 90,
     ingredients: [
       '500g Flour',
@@ -550,7 +550,7 @@ const dummyMeals = [
     affordability: Affordability.affordable,
     complexity: Complexity.challenging,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/12/28/18/46/pelmeni-3898454_1280.jpg',
+        'https://eda.ru/images/RecipePhoto/390x390/pelmeni-s-kuricey_175426_photo_183146.jpg',
     duration: 90,
     ingredients: [
       '500g Flour',
@@ -585,7 +585,7 @@ const dummyMeals = [
     affordability: Affordability.luxurious,
     complexity: Complexity.challenging,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2020/03/21/10/57/kazakh-food-4952570_1280.jpg',
+        'https://blog.remitly.com/wp-content/uploads/2023/09/kazakhstan-beshbarmak-1024x683.jpg',
     duration: 120,
     ingredients: [
       '1kg Lamb',
@@ -617,7 +617,7 @@ const dummyMeals = [
     affordability: Affordability.luxurious,
     complexity: Complexity.hard,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2016/11/29/02/42/sachertorte-1869227_1280.jpg',
+        'https://images.unsplash.com/photo-1627394728092-d080498ae85d?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     duration: 180,
     ingredients: [
       '200g Dark Chocolate',
